@@ -15,9 +15,8 @@ is a soft limit). If you want to use it in 24/7, it'll cost you.
 The API is simple (replace _largepins_ with your Heroku app name):
 
 * Use `https://largepins.herokuapp.com/?key=https://pinterest.com/hid3609481/feed.rss` to get the feed for user
-  `hid3609481`.
+  `hid3609481`
   as the source.
 * Use `https://largepins.herokuapp.com/?key=https://www.pinterest.com/hid3609481/home-decor-and-interior-design-ideas.rss/` to get the feed
   for the specific pin board. This will use
   `https://www.pinterest.com/hid3609481/home-decor-and-interior-design-ideas.rss` as the source.
-
