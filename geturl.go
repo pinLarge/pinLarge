@@ -49,7 +49,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
     feedt := strings.Replace(feeds, "<title></title>", "<title>More inspritations on hid360.com</title>", -1)
 	//change to byte array
 	//fmt.Printf("%s\n", feedt)
-	feedb := []byte(feedq)
+	feedb := []byte(feedt)
 	
 	w.WriteHeader(resp.StatusCode)
 	w.Write(feedb)	
